@@ -1,0 +1,30 @@
+.loginContainer{
+    background-color: #444;
+    margin-top: 10px;
+    border : 2px solid white;
+    border-radius: 10px;
+    padding : 10px;
+}
+
+.inputGroup{
+    display : flex;
+    justify-content: space-between;
+    margin : 5px;
+}
+
+.inputLabel{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.inputValue{
+    outline: none;
+    border-radius: 5px;
+}
+
+.loginButton{
+    width: 80%;
+    border-radius: 10px;
+    background-color: #61dafb;
+    font-weight: bold;
+}
