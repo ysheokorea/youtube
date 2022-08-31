@@ -1,0 +1,34 @@
+.loginContainer{
+    margin-top: 30px;
+    padding: 20px;
+    width: 400px;
+    background-color: #555;
+    border : 2px solid white;
+    border-radius: 10px;
+
+}
+.inputGroup{
+    display : flex;
+    justify-content: space-around;
+}
+
+.loginButton{
+    width : 100px;
+    height: 100px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor : pointer;
+}
+
+.buttonImg{
+    margin: 0;
+    object-fit: cover; 
+    width: 100%;   
+    height: 100%;
+    border-radius: 50%;
+}
+
+.buttonImg:active {
+    opacity: 30%;
+}
